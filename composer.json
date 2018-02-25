@@ -1,0 +1,19 @@
+{
+  "name": "drupal/powerbi",
+  "type": "drupal-module",
+  "description": "A drupal 8 and PowerBI integration module.",
+  "keywords": [
+    "Drupal"
+  ],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/dhis",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/dhis",
+    "source": "http://cgit.drupalcode.org/dhis"
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^6.2@dev",
+    "kamermans/guzzle-oauth2-subscriber": "dev-master"
+  }
+}

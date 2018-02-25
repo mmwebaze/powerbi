@@ -1,0 +1,4 @@
+services:
+  powerbi.oauth:
+    class: Drupal\powerbi\Service\OAuthService
+    arguments: ['@config.factory']

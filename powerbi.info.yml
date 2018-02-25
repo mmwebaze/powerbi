@@ -1,0 +1,5 @@
+name: Power BI
+type: module
+description: Module for integrating with Power BI
+core: 8.x
+package: Powerbi

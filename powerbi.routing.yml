@@ -1,0 +1,23 @@
+powerbi.settings:
+  path: '/admin/powerbi/settings'
+  defaults:
+    _form: '\Drupal\powerbi\Form\PowerbiSettingsForm'
+    _title: 'Power BI Settings'
+  requirements:
+    _permission: 'administer site configuration'
+
+powerbi.default:
+  path: '/powerbi/powerbi'
+  defaults:
+    _controller: '\Drupal\powerbi\Controller\PowerbiController::powerbi'
+    _title: 'Power Bi Demo'
+  requirements:
+    _permission: 'access content'
+
+powerbi.pbcode:
+  path: 'powerbi/pbcode'
+  defaults:
+    _controller: 'Drupal\powerbi\Controller\PowerbiController::receiveAuthorizationCode'
+    -title: 'Access token'
+  requirements:
+    _permission: 'access content'
